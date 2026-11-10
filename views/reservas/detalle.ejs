@@ -1,0 +1,29 @@
+<section class="detalle">
+  <p class="etiqueta">Reservas de salas</p>
+  <h1>Reserva #<%= reserva.id %></h1>
+
+  <dl>
+    <dt><strong>Estudiante</strong></dt>
+    <dd><%= reserva.estudiante %></dd>
+
+    <dt><strong>Email</strong></dt>
+    <dd><%= reserva.email %></dd>
+
+    <dt><strong>Sala</strong></dt>
+    <dd><%= reserva.sala %></dd>
+
+    <dt><strong>Fecha</strong></dt>
+    <dd><%= reserva.fecha %></dd>
+
+    <dt><strong>Turno</strong></dt>
+    <dd><%= reserva.turno %></dd>
+
+    <dt><strong>Cantidad de personas</strong></dt>
+    <dd><%= reserva.personas %></dd>
+  </dl>
+
+  <p>
+    <a class="boton" href="/reservas">Volver al listado</a>
+    <a class="boton" href="/reservas/nueva">Nueva reserva</a>
+  </p>
+</section>
